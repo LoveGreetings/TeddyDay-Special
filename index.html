@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Teddy Day My Love 🧸</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="background">
+        <div class="stars"></div>
+        <div class="floating-hearts"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">💝 Teddy Day 2026 💝</h1>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">Our Story</a></li>
+                <li><a href="#gallery" class="nav-link">Memories</a></li>
+                <li><a href="#messages" class="nav-link">Messages</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Happy Teddy Day!</h1>
+            <p class="hero-subtitle">To My Beautiful Wife 🧸💕</p>
+            <div class="teddy-bear-large">🧸</div>
+            <button class="btn btn-primary" onclick="scrollToSection('messages')">Read My Heart</button>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll down</span>
+            <div class="arrow">↓</div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-container">
+            <h2 class="section-title">Our Love Story</h2>
+            <div class="story-grid">
+                <div class="story-card">
+                    <div class="story-icon">💑</div>
+                    <h3>We Met</h3>
+                    <p>The day you came into my life was the day my heart found its home. You're my greatest blessing.</p>
+                </div>
+                <div class="story-card">
+                    <div class="story-icon">💕</div>
+                    <h3>We Fell</h3>
+                    <p>Deeply, madly, completely in love. Every moment with you feels like a beautiful dream.</p>
+                </div>
+                <div class="story-card">
+                    <div class="story-icon">👑</div>
+                    <h3>You're My Everything</h3>
+                    <p>My love, my partner, my best friend. You make me the happiest person in this world.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <h2 class="section-title">Our Beautiful Memories</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item" data-emotion="happy">
+                <div class="gallery-card">
+                    <div class="emoji-display">😊</div>
+                    <p>Happy Moments</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-emotion="love">
+                <div class="gallery-card">
+                    <div class="emoji-display">❤️</div>
+                    <p>Love Filled Days</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-emotion="adventure">
+                <div class="gallery-card">
+                    <div class="emoji-display">🌍</div>
+                    <p>Adventures Together</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-emotion="cuddles">
+                <div class="gallery-card">
+                    <div class="emoji-display">🤗</div>
+                    <p>Cuddle Time</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-emotion="laugh">
+                <div class="gallery-card">
+                    <div class="emoji-display">😄</div>
+                    <p>Laughing Together</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-emotion="future">
+                <div class="gallery-card">
+                    <div class="emoji-display">✨</div>
+                    <p>Our Future</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Messages Section -->
+    <section id="messages" class="messages">
+        <div class="messages-container">
+            <h2 class="section-title">Letters From My Heart</h2>
+            
+            <div class="message-card active" data-message="1">
+                <div class="message-header">
+                    <span class="message-date">Today - Teddy Day 2026</span>
+                </div>
+                <div class="message-body">
+                    <p>My Dearest Love,</p>
+                    <p>Today, on this special day of Teddy bears and love, I wanted to take a moment to tell you how much you mean to me. You are my sunshine, my stars, my everything.</p>
+                    <p>Every day with you is a gift I never knew I needed.</p>
+                    <p>With all my love,</p>
+                    <p>Your Husband ❤️</p>
+                </div>
+            </div>
+
+            <div class="message-card" data-message="2">
+                <div class="message-header">
+                    <span class="message-date">A Special Note</span>
+                </div>
+                <div class="message-body">
+                    <p>My Beautiful Wife,</p>
+                    <p>You are the reason my heart smiles. Your presence makes every moment special. I fall in love with you more and more each passing day.</p>
+                    <p>Thank you for being my teddy bear, my comfort, my home.</p>
+                    <p>Forever yours,</p>
+                    <p>Your Loving Husband 💕</p>
+                </div>
+            </div>
+
+            <div class="message-card" data-message="3">
+                <div class="message-header">
+                    <span class="message-date">A Promise</span>
+                </div>
+                <div class="message-body">
+                    <p>My Sweet Darling,</p>
+                    <p>I promise to love you through every season, every challenge, every moment. I promise to be your rock, your support, your best friend.</p>
+                    <p>With you, I'm home. With you, I'm complete.</p>
+                    <p>Always and forever,</p>
+                    <p>Your Devoted Husband 💍</p>
+                </div>
+            </div>
+
+            <div class="message-nav">
+                <button class="msg-btn" onclick="previousMessage()">← Previous</button>
+                <div class="message-dots">
+                    <span class="dot active" onclick="goToMessage(1)"></span>
+                    <span class="dot" onclick="goToMessage(2)"></span>
+                    <span class="dot" onclick="goToMessage(3)"></span>
+                </div>
+                <button class="msg-btn" onclick="nextMessage()">Next →</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Counter Section -->
+    <section class="counter-section">
+        <h2 class="section-title">Days Since I Fell For You 💕</h2>
+        <div class="counter-display" id="counter"></div>
+    </section>
+
+    <!-- Interactive Hearts -->
+    <section class="interactive">
+        <h2 class="section-title">Click to Spread Love</h2>
+        <div class="heart-container" id="heartContainer"></div>
+        <p class="heart-instructions">Click anywhere to create floating hearts! 💕</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Made with 💕 for the most beautiful woman in the world</p>
+        <p>Happy Teddy Day to my beloved wife!</p>
+        <p>&copy; 2026 - Forever yours</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
